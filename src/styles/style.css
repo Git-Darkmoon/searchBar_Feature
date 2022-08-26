@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(220deg, 100%, 18%);
+}
+
+.searchBar {
+  position: absolute;
+  left: 25%;
+  transform: translateX(-25%);
+  margin-block: 2em;
+}
+
+.form {
+  position: relative;
+  border-radius: 3em;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #bec1c7;
+}
+
+.form-input {
+  height: 55px;
+  width: 50vw;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  box-shadow: 0px 0px 3px 3.5px rgb(190, 193, 199);
+}
+
+.wrapper {
+  max-width: 90vw;
+  padding-top: 10rem;
+  gap: 2em;
+  margin: 0 auto;
+}
+.wrapper .card {
+  transition: all 0.25s ease;
+}
+.wrapper .card:hover {
+  transform: scale(1.1);
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
